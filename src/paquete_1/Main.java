@@ -1,10 +1,10 @@
 package paquete_1;
 
 /**
- * Esta es la clase principal del programa. A partir de aquí se empezará a ejecutar.
- * @see <a href = "https://github.com/isarubio95/Isaias-Rubio-ED.git">Repositorio de GitHub</a>
+ * Esta es la clase principal del programa. A partir de aquí, se empezará a ejecutar.
+ * @author Isaías Rubio Hernández
+ * @see <a href = "https://github.com/isarubio95/Isaias-Rubio-ED.git">Link al repositorio GitHub</a>
  * @since 1.0 - 27/02/2024
- * @author isaias
  * @version 1.2 - 28/02/2024
  */
 public class Main {
@@ -19,7 +19,7 @@ public class Main {
 		Persona persona = new Persona(); 
 		
 		/**
-		 * Método que imprime un mensaje dependiendo de la edad de la persona
+		 * Método que imprime un mensaje dependiendo la edad que tenga el usuario
 		 * @see persona.CalcularAniosHastaJubilacion();
 		 */
 		persona.CalcularAniosHastaJubilacion();
@@ -28,4 +28,4 @@ public class Main {
 		
 	}
 	
-} //Fin del método main
+} //Fin de la clase Main

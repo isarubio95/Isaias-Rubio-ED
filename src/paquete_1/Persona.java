@@ -10,8 +10,8 @@ public class Persona {
 	int edad;	
 	
 		/**
-	     * Constructor de la clase persona. Vacío porque le pediremos al usuario que ingrese
-	     * la edad por consola.
+	     * Constructor de la clase persona. 
+	     * Sin parámetros porque le pediremos al usuario que introduzca la edad por consola.
 	     */	
 		public Persona () {
 			this.edad = edad;
@@ -19,8 +19,9 @@ public class Persona {
 		
 		/**
 		 * Método que muestra la diferencia en años que le quedan a la persona para jubilarse,
-		 * es decir, para cumplir los 67 años. Si tiene más de 57, imprimirá un mensaje motivador, 
-		 * y si tiene menos de 57, imprimirá otro con un tono más irónico.
+		 * es decir, para cumplir los 67 años. 
+		 * Si tiene más de 57, imprimirá un mensaje motivador, 
+		 * si tiene menos de 57, imprimirá otro con un tono más irónico.
 		 */
 		public void CalcularAniosHastaJubilacion() {
 			
@@ -34,9 +35,8 @@ public class Persona {
 			}
 			else {
 				int aniosRestantes = 67 - edad;
-				System.out.println("Te quedan " + aniosRestantes + " años. ¡A seguir trabajando gandul!");
-				
+				System.out.println("Te quedan " + aniosRestantes + " años. ¡A seguir trabajando gandul!");				
 			}			
 		} 
 		
-} //Fin de la clase persona
+} //Fin de la clase Persona
